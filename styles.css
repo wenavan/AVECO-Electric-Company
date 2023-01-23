@@ -34,8 +34,6 @@ nav {
 .navbar-nav {
   justify-content: end;
   width: 100%;
-  padding-top: 8px;
-  padding-bottom: 8px;
 }
 
 .nav-link {
