@@ -26,11 +26,21 @@
     <link rel="stylesheet" href="styles.css" type="text/css" />
 
     <title>Services</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
   </head>
   <body>
     <!-- Nav bar heading-->
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg sticky-top">
+      <a href="#" class="iconhead" id="iconhead"
+        ><i class="fa-brands fa-facebook-f"></i
+      ></a>
+      <a href="#" class="iconhead"><i class="fa-brands fa-twitter"></i></a>
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.html"
             ><img src="img/logo2.png" id="logo"
@@ -105,7 +115,11 @@
                     <a class="dropdown-item" href="#">Payement Centers</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Estimating your Bill</a>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.rapidtables.com/calc/electric/electricity-calculator.html"
+                      >Estimating your Bill</a
+                    >
                   </li>
                   <li>
                     <a class="dropdown-item" href="services.html"
@@ -115,7 +129,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="Contact_Us.html">Contact Us</a>
               </li>
               <li class="nav-item pt-2 ps-2">
                 <a href="Log_in.html"
@@ -156,6 +170,75 @@
         </p>
         <br />
         <p>Stay safe at home with these seven tips:</p>
+        <ol>
+          <li>Avoid overloading outlets</li>
+          <p>
+            Make sure your outlet isn’t being overloaded with too many devices
+            and appliances using adapters and extension cords. Additionally,
+            only one heat-producing device should be plugged into an outlet at a
+            time (coffee maker, hair dryer, etc.), and refrigerators, ovens,
+            laundry machines and other major appliances should be plugged
+            straight into the wall and not an adapter or extension cord.
+          </p>
+          <br />
+          <li>Unplug appliances when not in use</li>
+          <p>
+            Not only will unplugging appliances prevent you from using
+            unnecessary energy , it could also help protect your appliances from
+            surges and other electrical mishaps.
+          </p>
+          <br />
+          <li>Use the proper wattage for lamps and lighting fixtures</li>
+          <p>
+            The recommended wattage is what keeps your lamps shining safely.
+            There should be a sticker indicating the maximum wattage of the bulb
+            needed. Lamps should also be used with a shade or globe to prevent
+            other items heating up if they’re too close to the bulb –
+            particularly if you’re using incandescent bulbs. LEDs are a great
+            way to light up a room without all the wasted heat energy.
+          </p>
+          <br />
+          <li>Never run cords under carpets, rugs, doors or windows</li>
+          <p>
+            Running cords throughout your house can cause tripping hazards as
+            well as inviting electrical accidents when they’re consistently out
+            in the open. And a cord under a rug or carpet is a fire hazard. If
+            you find you’re using extension cords regularly, consult your
+            electrician about adding new outlets around your home within reach
+            of the things you need to plug in.
+          </p>
+          <br />
+          <li>Get rid of damaged extension cords</li>
+          <p>
+            Making sure you’re using the correct extension cord for the
+            environment and circumstance will help prolong the lifespan of your
+            cords, but they’re meant to be replaced as needed. Instead of trying
+            to fix damaged cords, updating or upgrading your extension cords
+            when they’re not working properly will help prevent sparks, surges
+            and electrical fires. Your extension cords should also have surge
+            protectors.
+          </p>
+          <br />
+          <li>Keep electrical appliances and tools away from water</li>
+          <p>
+            You’re probably well aware that water and electricity don’t mix, but
+            it’s sometimes easy to overlook hazards in everyday situations. Make
+            sure you’re keeping kitchen appliances a safe distance from sinks
+            and other appliances that use water. Also, be sure that all outlets
+            near a water source are ground fault circuit interrupters, or GFCI,
+            receptacles. These can quickly shut off power at the outlet when a
+            short circuit is detected.
+          </p>
+          <br />
+          <li>Call a professional</li>
+          <p>
+            If your lights are flickering, your circuits are tripped frequently,
+            you see sparks or smell burning or rubbery odors, it’s time to call
+            a trained electrician. These warnings signal a larger electrical
+            problem that needs to be addressed at the source quickly rather than
+            waiting it out or leaning on a temporary solution.
+          </p>
+        </ol>
       </div>
     </div>
 
@@ -226,6 +309,7 @@
         data: { state: "close" },
       });
     </script>
+    <script src="main.js"></script>
   </body>
 </html>
 `

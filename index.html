@@ -26,11 +26,21 @@
     <link rel="stylesheet" href="styles.css" type="text/css" />
 
     <title>Home</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
   </head>
   <body>
     <!-- Nav bar heading-->
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg sticky-top">
+      <a href="#" class="iconhead" id="iconhead"
+        ><i class="fa-brands fa-facebook-f"></i
+      ></a>
+      <a href="#" class="iconhead"><i class="fa-brands fa-twitter"></i></a>
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.html"
             ><img src="img/logo2.png" id="logo"
@@ -105,7 +115,11 @@
                     <a class="dropdown-item" href="#">Payement Centers</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Estimating your Bill</a>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.rapidtables.com/calc/electric/electricity-calculator.html"
+                      >Estimating your Bill</a
+                    >
                   </li>
                   <li>
                     <a class="dropdown-item" href="services.html"
@@ -115,7 +129,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="Contact_Us.html">Contact Us</a>
               </li>
               <li class="nav-item pt-2 ps-2">
                 <a href="Log_in.html"
@@ -350,4 +364,5 @@
       });
     </script>
   </body>
+  <script src="main.js"></script>
 </html>
