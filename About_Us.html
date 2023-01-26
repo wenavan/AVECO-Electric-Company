@@ -35,112 +35,112 @@
   </head>
   <body>
     <!-- Nav bar heading-->
-    <header class="sticky-top">
+    <div class="header">
       <a href="#" class="iconhead" id="iconhead"
         ><i class="fa-brands fa-facebook-f"></i
       ></a>
       <a href="#" class="iconhead"><i class="fa-brands fa-twitter"></i></a>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img src="img/logo2.png" id="logo"
-          /></a>
-          <h1 class="logo" style="color: white">AVECO</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo2.png" id="logo"
+        /></a>
+        <h1 class="logo" style="color: white">AVECO</h1>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <form id="app" action="#">
-                <label :data-state="state" for="search">
-                  <input
-                    type="text"
-                    placeholder="Search"
-                    @click="state = 'opan'"
-                    @blur="state='close'"
-                  />
-                  <i class="fa fa-search" @click="" aria-hidden="true"></i>
-                </label>
-              </form>
-              <div id="bcl">
-                <a
-                  style="font-size: 8pt; text-decoration: none"
-                  href="http://www.devanswer.com"
-                ></a>
-              </div>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="About_Us.html"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Applying for a new connection</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Monthly Rate Schedule</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Generation Rates</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Payement Centers</a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="https://www.rapidtables.com/calc/electric/electricity-calculator.html"
-                      >Estimating your Bill</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="services.html"
-                      >Electrical Safety Tips</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contact_Us.html">Contact Us</a>
-              </li>
-              <li class="nav-item pt-2 ps-2">
-                <a href="Log_in.html"
-                  ><i class="fa-solid fa-user-plus" style="color: white"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <form id="app" action="#">
+              <label :data-state="state" for="search">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  @click="state = 'opan'"
+                  @blur="state='close'"
+                />
+                <i class="fa fa-search" @click="" aria-hidden="true"></i>
+              </label>
+            </form>
+            <div id="bcl">
+              <a
+                style="font-size: 8pt; text-decoration: none"
+                href="http://www.devanswer.com"
+              ></a>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="About_Us.html"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Applying for a new connection</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Monthly Rate Schedule</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Generation Rates</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Payement Centers</a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.rapidtables.com/calc/electric/electricity-calculator.html"
+                    >Estimating your Bill</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="services.html"
+                    >Electrical Safety Tips</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact_Us.html">Contact Us</a>
+            </li>
+            <li class="nav-item pt-2 ps-2">
+              <a href="Log_in.html"
+                ><i class="fa-solid fa-user-plus" style="color: white"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <!-- Company Profile-->
     <div>
